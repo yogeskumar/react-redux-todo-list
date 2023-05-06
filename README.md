@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# React Redux To-Do List Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React.js web application built to demonstrate the usage of various technologies such as React.js, Redux, Redux Thunk, hooks, Material-UI (MUI), and Axios. The application fetches user data from the [JSONPlaceholder](https://jsonplaceholder.typicode.com/) API and displays it on the home page. When a user clicks the "View User" button, they are redirected to a user page where specific user details are fetched from the API.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Fetches user data from [JSONPlaceholder](https://jsonplaceholder.typicode.com/todos) API
+- Displays user data on the home page
+- Fetches individual user details from [JSONPlaceholder](https://jsonplaceholder.typicode.com/users/) API
+- Redirects to a user page to display specific user details
+- Utilizes Redux for state management
+- Uses Redux Thunk middleware for asynchronous actions
+- Implements React hooks for functional component-based development
+- Utilizes Material-UI (MUI) for styling and UI components
+- Communicates with the API using Axios
 
-### `npm start`
+## Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Before running the project, make sure you have the following installed:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Node.js (v14.0.0 or higher)
+- npm (v6.0.0 or higher)
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+   git clone https://github.com/your-username/react-redux-todo-list.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   cd react-redux-todo-list
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install the dependencies:
 
-### `npm run eject`
+   npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1.  Start the development server:
+    npm start
+2.  Open your browser and navigate to http://localhost:3000 to access the application.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Folder Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The project follows a standard folder structure commonly used in React.js applications:
 
-## Learn More
+check github repository
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Configuration
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+You can configure the API endpoints by modifying the URLs in the services directory files:
 
-### Code Splitting
+- todos.js for fetching user data
+- users.js for fetching individual user details
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributing
 
-### Analyzing the Bundle Size
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1.  Fork the repository.
+2.  Create a new branch.
+3.  Make your changes and commit them.
+4.  Push your changes to your forked repository.
+5.  Submit a pull request.
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is licensed under the [MIT License](https://opensource.org/license/mit/).
 
-### Advanced Configuration
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- [JSONPlaceholder](https://jsonplaceholder.typicode.com/) for providing the API used in this project.
+- The open-source community for the wonderful tools and libraries used in this project.
 
-### Deployment
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have any questions, suggestions, or feedback, please feel free to contact me at ykt901694@gmail.com.
